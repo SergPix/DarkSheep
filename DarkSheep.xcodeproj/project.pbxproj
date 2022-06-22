@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1945D887283E881E00DE9D5B /* AddNewPlayer2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1945D886283E881E00DE9D5B /* AddNewPlayer2.swift */; };
+		1945D889283E896700DE9D5B /* CustomCellForAddNewPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1945D888283E896700DE9D5B /* CustomCellForAddNewPlayer.swift */; };
+		196D6FB22828362C0015C69C /* modelOfPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196D6FB12828362C0015C69C /* modelOfPlayer.swift */; };
+		196D6FB42828365E0015C69C /* CustomCellFromDrawScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196D6FB32828365E0015C69C /* CustomCellFromDrawScreen.swift */; };
+		196D6FB62828367B0015C69C /* CustomCellForLoserScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196D6FB52828367B0015C69C /* CustomCellForLoserScreen.swift */; };
+		196D6FB8282836970015C69C /* CustomCellForVictoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196D6FB7282836970015C69C /* CustomCellForVictoryScreen.swift */; };
+		196D6FBA282836A50015C69C /* CustomCellForMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196D6FB9282836A50015C69C /* CustomCellForMain.swift */; };
+		198337FE28281E7200A4AB14 /* Presentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198337FD28281E7200A4AB14 /* Presentation.swift */; };
+		1983380028281E8400A4AB14 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198337FF28281E8400A4AB14 /* PageView.swift */; };
+		1983380228281E9000A4AB14 /* DrawScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1983380128281E9000A4AB14 /* DrawScreen.swift */; };
+		1983380428281E9A00A4AB14 /* LosingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1983380328281E9A00A4AB14 /* LosingScreen.swift */; };
+		1983380628281EA300A4AB14 /* VictoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1983380528281EA300A4AB14 /* VictoryScreen.swift */; };
+		1999B4132836924B005774C9 /* SwitchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1999B4122836924B005774C9 /* SwitchScreen.swift */; };
+		8A5695F8FF48EFF90F863FF3 /* Pods_DarkSheep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BFFA06FDFA8E3A35E015CE7 /* Pods_DarkSheep.framework */; };
+		F70513822805E48C0076681C /* CustomCellForCountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70513812805E48C0076681C /* CustomCellForCountScreen.swift */; };
+		F715B2D227ECB8700082DEE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F715B2D127ECB8700082DEE2 /* AppDelegate.swift */; };
+		F715B2D427ECB8700082DEE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F715B2D327ECB8700082DEE2 /* SceneDelegate.swift */; };
+		F715B2D627ECB8700082DEE2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F715B2D527ECB8700082DEE2 /* MainViewController.swift */; };
+		F715B2D927ECB8700082DEE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F715B2D727ECB8700082DEE2 /* Main.storyboard */; };
+		F715B2DB27ECB8710082DEE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F715B2DA27ECB8710082DEE2 /* Assets.xcassets */; };
+		F715B2DE27ECB8710082DEE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F715B2DC27ECB8710082DEE2 /* LaunchScreen.storyboard */; };
+		F715B2E627ECCEA00082DEE2 /* CountValueScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F715B2E527ECCEA00082DEE2 /* CountValueScreen.swift */; };
+		F73D9AF3281C13D1001E3A38 /* Airfool.otf in Resources */ = {isa = PBXBuildFile; fileRef = F73D9AF2281C13D1001E3A38 /* Airfool.otf */; };
+		F779F6A827EDC0A6008D8DDC /* modelOfValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F779F6A727EDC0A6008D8DDC /* modelOfValue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1945D886283E881E00DE9D5B /* AddNewPlayer2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddNewPlayer2.swift; path = /Users/sergkolodny/Documents/Xcode/DarkSheep/DarkSheep/AddNewPlayer2.swift; sourceTree = "<absolute>"; };
+		1945D888283E896700DE9D5B /* CustomCellForAddNewPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomCellForAddNewPlayer.swift; path = /Users/sergkolodny/Documents/Xcode/DarkSheep/CustomCellForAddNewPlayer.swift; sourceTree = "<absolute>"; };
+		196D6FB12828362C0015C69C /* modelOfPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = modelOfPlayer.swift; path = DarkSheep/modelOfPlayer.swift; sourceTree = "<group>"; };
+		196D6FB32828365E0015C69C /* CustomCellFromDrawScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellFromDrawScreen.swift; sourceTree = "<group>"; };
+		196D6FB52828367B0015C69C /* CustomCellForLoserScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomCellForLoserScreen.swift; path = /Users/sergkolodny/Documents/Xcode/DarkSheep/CustomCellForLoserScreen.swift; sourceTree = "<absolute>"; };
+		196D6FB7282836970015C69C /* CustomCellForVictoryScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellForVictoryScreen.swift; sourceTree = "<group>"; };
+		196D6FB9282836A50015C69C /* CustomCellForMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomCellForMain.swift; path = DarkSheep/CustomCellForMain.swift; sourceTree = "<group>"; };
+		198337FD28281E7200A4AB14 /* Presentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presentation.swift; sourceTree = "<group>"; };
+		198337FF28281E8400A4AB14 /* PageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		1983380128281E9000A4AB14 /* DrawScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawScreen.swift; sourceTree = "<group>"; };
+		1983380328281E9A00A4AB14 /* LosingScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LosingScreen.swift; sourceTree = "<group>"; };
+		1983380528281EA300A4AB14 /* VictoryScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VictoryScreen.swift; sourceTree = "<group>"; };
+		1999B4122836924B005774C9 /* SwitchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwitchScreen.swift; path = /Users/sergkolodny/Documents/Xcode/DarkSheep/DarkSheep/SwitchScreen.swift; sourceTree = "<absolute>"; };
+		1BFFA06FDFA8E3A35E015CE7 /* Pods_DarkSheep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarkSheep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BED607863F688A58C3E4855 /* Pods-DarkSheep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSheep.debug.xcconfig"; path = "Target Support Files/Pods-DarkSheep/Pods-DarkSheep.debug.xcconfig"; sourceTree = "<group>"; };
+		9272B369E9488401F3C38C0D /* Pods-DarkSheep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSheep.release.xcconfig"; path = "Target Support Files/Pods-DarkSheep/Pods-DarkSheep.release.xcconfig"; sourceTree = "<group>"; };
+		F70513812805E48C0076681C /* CustomCellForCountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellForCountScreen.swift; sourceTree = "<group>"; };
+		F715B2CE27ECB8700082DEE2 /* DarkSheep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkSheep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F715B2D127ECB8700082DEE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F715B2D327ECB8700082DEE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F715B2D527ECB8700082DEE2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F715B2D827ECB8700082DEE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F715B2DA27ECB8710082DEE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F715B2DD27ECB8710082DEE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F715B2DF27ECB8710082DEE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F715B2E527ECCEA00082DEE2 /* CountValueScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountValueScreen.swift; sourceTree = "<group>"; };
+		F73D9AF2281C13D1001E3A38 /* Airfool.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Airfool.otf; sourceTree = "<group>"; };
+		F779F6A727EDC0A6008D8DDC /* modelOfValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelOfValue.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F715B2CB27ECB8700082DEE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5695F8FF48EFF90F863FF3 /* Pods_DarkSheep.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19CA3EA02850CA330050E322 /* ExodusScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1983380528281EA300A4AB14 /* VictoryScreen.swift */,
+				1983380328281E9A00A4AB14 /* LosingScreen.swift */,
+				1983380128281E9000A4AB14 /* DrawScreen.swift */,
+			);
+			name = ExodusScreen;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		19CA3EA12850CA740050E322 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1999B4122836924B005774C9 /* SwitchScreen.swift */,
+				198337FF28281E8400A4AB14 /* PageView.swift */,
+				198337FD28281E7200A4AB14 /* Presentation.swift */,
+			);
+			name = Presentation;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		588255DFE66BC5A824EDB7B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BED607863F688A58C3E4855 /* Pods-DarkSheep.debug.xcconfig */,
+				9272B369E9488401F3C38C0D /* Pods-DarkSheep.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C9EB7F7E4B1758C6A9CA0C0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BFFA06FDFA8E3A35E015CE7 /* Pods_DarkSheep.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F715B2C527ECB8700082DEE2 = {
+			isa = PBXGroup;
+			children = (
+				F715B2D027ECB8700082DEE2 /* DarkSheep */,
+				F715B2CF27ECB8700082DEE2 /* Products */,
+				588255DFE66BC5A824EDB7B8 /* Pods */,
+				C9EB7F7E4B1758C6A9CA0C0F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F715B2CF27ECB8700082DEE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F715B2CE27ECB8700082DEE2 /* DarkSheep.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F715B2D027ECB8700082DEE2 /* DarkSheep */ = {
+			isa = PBXGroup;
+			children = (
+				19CA3EA12850CA740050E322 /* Presentation */,
+				F715B2D127ECB8700082DEE2 /* AppDelegate.swift */,
+				F715B2D327ECB8700082DEE2 /* SceneDelegate.swift */,
+				1945D886283E881E00DE9D5B /* AddNewPlayer2.swift */,
+				F715B2D527ECB8700082DEE2 /* MainViewController.swift */,
+				F715B2E527ECCEA00082DEE2 /* CountValueScreen.swift */,
+				F715B2D727ECB8700082DEE2 /* Main.storyboard */,
+				F715B2DA27ECB8710082DEE2 /* Assets.xcassets */,
+				19CA3EA02850CA330050E322 /* ExodusScreen */,
+				F7AAE36428216E72007B8A36 /* Model */,
+				F7EE143B281C3D1F0045AD75 /* Custom Cells */,
+				F73D9AF1281C13BB001E3A38 /* Font */,
+				F715B2DC27ECB8710082DEE2 /* LaunchScreen.storyboard */,
+				F715B2DF27ECB8710082DEE2 /* Info.plist */,
+			);
+			path = DarkSheep;
+			sourceTree = "<group>";
+		};
+		F73D9AF1281C13BB001E3A38 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F73D9AF2281C13D1001E3A38 /* Airfool.otf */,
+			);
+			name = Font;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F7AAE36428216E72007B8A36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				196D6FB12828362C0015C69C /* modelOfPlayer.swift */,
+				F779F6A727EDC0A6008D8DDC /* modelOfValue.swift */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F7EE143B281C3D1F0045AD75 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1945D888283E896700DE9D5B /* CustomCellForAddNewPlayer.swift */,
+				196D6FB9282836A50015C69C /* CustomCellForMain.swift */,
+				F70513812805E48C0076681C /* CustomCellForCountScreen.swift */,
+				196D6FB7282836970015C69C /* CustomCellForVictoryScreen.swift */,
+				196D6FB52828367B0015C69C /* CustomCellForLoserScreen.swift */,
+				196D6FB32828365E0015C69C /* CustomCellFromDrawScreen.swift */,
+			);
+			name = "Custom Cells";
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F715B2CD27ECB8700082DEE2 /* DarkSheep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F715B2E227ECB8710082DEE2 /* Build configuration list for PBXNativeTarget "DarkSheep" */;
+			buildPhases = (
+				E8D4C75BD8A9C6B3B350B090 /* [CP] Check Pods Manifest.lock */,
+				F715B2CA27ECB8700082DEE2 /* Sources */,
+				F715B2CB27ECB8700082DEE2 /* Frameworks */,
+				F715B2CC27ECB8700082DEE2 /* Resources */,
+				ABAA1B943AC8E643F5BF349E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarkSheep;
+			productName = DarkSheep;
+			productReference = F715B2CE27ECB8700082DEE2 /* DarkSheep.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F715B2C627ECB8700082DEE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F715B2CD27ECB8700082DEE2 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F715B2C927ECB8700082DEE2 /* Build configuration list for PBXProject "DarkSheep" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F715B2C527ECB8700082DEE2;
+			productRefGroup = F715B2CF27ECB8700082DEE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F715B2CD27ECB8700082DEE2 /* DarkSheep */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F715B2CC27ECB8700082DEE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F715B2DE27ECB8710082DEE2 /* LaunchScreen.storyboard in Resources */,
+				F715B2DB27ECB8710082DEE2 /* Assets.xcassets in Resources */,
+				F73D9AF3281C13D1001E3A38 /* Airfool.otf in Resources */,
+				F715B2D927ECB8700082DEE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ABAA1B943AC8E643F5BF349E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DarkSheep/Pods-DarkSheep-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DarkSheep/Pods-DarkSheep-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DarkSheep/Pods-DarkSheep-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8D4C75BD8A9C6B3B350B090 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DarkSheep-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F715B2CA27ECB8700082DEE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1983380428281E9A00A4AB14 /* LosingScreen.swift in Sources */,
+				196D6FB22828362C0015C69C /* modelOfPlayer.swift in Sources */,
+				198337FE28281E7200A4AB14 /* Presentation.swift in Sources */,
+				196D6FB8282836970015C69C /* CustomCellForVictoryScreen.swift in Sources */,
+				1945D887283E881E00DE9D5B /* AddNewPlayer2.swift in Sources */,
+				1983380028281E8400A4AB14 /* PageView.swift in Sources */,
+				F779F6A827EDC0A6008D8DDC /* modelOfValue.swift in Sources */,
+				1983380228281E9000A4AB14 /* DrawScreen.swift in Sources */,
+				1945D889283E896700DE9D5B /* CustomCellForAddNewPlayer.swift in Sources */,
+				1983380628281EA300A4AB14 /* VictoryScreen.swift in Sources */,
+				F70513822805E48C0076681C /* CustomCellForCountScreen.swift in Sources */,
+				196D6FBA282836A50015C69C /* CustomCellForMain.swift in Sources */,
+				F715B2D627ECB8700082DEE2 /* MainViewController.swift in Sources */,
+				196D6FB42828365E0015C69C /* CustomCellFromDrawScreen.swift in Sources */,
+				F715B2E627ECCEA00082DEE2 /* CountValueScreen.swift in Sources */,
+				1999B4132836924B005774C9 /* SwitchScreen.swift in Sources */,
+				F715B2D227ECB8700082DEE2 /* AppDelegate.swift in Sources */,
+				196D6FB62828367B0015C69C /* CustomCellForLoserScreen.swift in Sources */,
+				F715B2D427ECB8700082DEE2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F715B2D727ECB8700082DEE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F715B2D827ECB8700082DEE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F715B2DC27ECB8710082DEE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F715B2DD27ECB8710082DEE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F715B2E027ECB8710082DEE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F715B2E127ECB8710082DEE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F715B2E327ECB8710082DEE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BED607863F688A58C3E4855 /* Pods-DarkSheep.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F57NVJS6JA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DarkSheep/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DarkSheep;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Serg-Kolodny.test.DarkSheep";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F715B2E427ECB8710082DEE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9272B369E9488401F3C38C0D /* Pods-DarkSheep.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F57NVJS6JA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DarkSheep/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DarkSheep;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Serg-Kolodny.test.DarkSheep";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F715B2C927ECB8700082DEE2 /* Build configuration list for PBXProject "DarkSheep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F715B2E027ECB8710082DEE2 /* Debug */,
+				F715B2E127ECB8710082DEE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F715B2E227ECB8710082DEE2 /* Build configuration list for PBXNativeTarget "DarkSheep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F715B2E327ECB8710082DEE2 /* Debug */,
+				F715B2E427ECB8710082DEE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F715B2C627ECB8700082DEE2 /* Project object */;
+}
